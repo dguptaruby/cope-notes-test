@@ -28,6 +28,10 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 - whenever
 
+* SMTP configuration for send message
+- required registered mail_id. example <'your_email@gmail.com'>.
+- required two step verification token as Password of registered mail_id.
+
 * Run rake task 
 - rake batch:send_messages
 
